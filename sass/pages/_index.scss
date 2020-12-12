@@ -1,0 +1,31 @@
+//layout
+//F5F5F5
+.primary-nav{
+    position: absolute;
+    width: 9.1%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #F5F5F5 ;
+    box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    position: absolute;
+    width: 70%;
+    height: 72vh;
+    left: 203px;
+    top: 96px;
+
+    background: #000000 ;
+}
+
+.btn-cta {
+    position: absolute;
+    width: 13%;
+    height: 19vh;
+    left: 1166px;
+    top: 0px;
+    background: #000000 ;
+}
