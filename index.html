@@ -4,16 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <title>Home</title>
 </head>
 
-<body>
+<body class="body-content-index">
     <nav class="primary-nav">
-    
+        <div class="primary-navigation">
+            <div class="primary-navigation__logo">
+                <img src="./images/logo.png" alt="logo for weather journal" >
+            </div>
+                <ul class="primary-navigation__links">
+                    <li class="primary-navigation__items">
+                        <a href="#" class="nav-link link-1">Home</a>
+                    </li>
+                    <li class="primary-navigation__items">
+                        <a href="#" class="nav-link link-2">Contacts</a>
+                    </li>
+                    <li class="primary-navigation__items">
+                        <a href="#" class="nav-link link-3">About</a>
+                    </li>
+                </ul>
+        </div>
     </nav>
-    <div class="content"></div>
-    <div class="btn-cta"></div>
+    <div class="content">
+        <img src="./images/logo-pri.png" alt="large logo" class="content__imgHeader">
+        <h2 class="content__sub-heading quote">for the best <br> weather advice</h2>
+        <form action="post" class="content__form form">
+            <div class="form__text-enter">
+                <input type="text" class="form__input">
+                <button type="submit" class="form__btn" ><span class="iconify" data-inline="false" data-icon="bx:bx-search-alt" style="font-size: 48px;"></span></button>    
+            </div>
+            <label for="text" class="form__label">Enter any city</label>
+        </form>
+    </div>
+    <div class="btn-cta">
+        <span><a href="#" class="link-pri">sign up</a></span>
+        <br>&<br>
+        <span><a href="#" class="link-ghost">login</a></span>
+    </div>
+
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 
 </html>

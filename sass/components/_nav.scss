@@ -1,0 +1,29 @@
+.primary-navigation{
+    position: relative;
+    width: 61%;
+    height: 54vh;
+    left: 2.5rem;
+    top: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logo{
+        margin-bottom: 6rem;
+        width: 100%;
+        height: 10vh;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        transform: rotate(-90deg);
+        margin-top: 130px;
+        margin-left: -20px;
+    }
+
+    &__items {
+        margin-left: 26px;
+        list-style: none;
+    }
+}

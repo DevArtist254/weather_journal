@@ -17,9 +17,80 @@
     height: 72vh;
     left: 203px;
     top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    background: #000000 ;
+    &__imgHeader {
+        width: 70%;
+        height: 51vh;
+    }
+
+    &__sub-heading{
+        margin-left: 62rem;
+    }
 }
+
+.body-content-index {
+    background-image: url("./img/cloud.png");
+   background-position-x: 100%;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+
+/*Form*/
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__input {
+        width: 43.6rem;
+        height: 4.8rem;
+        background-color: #8299A9;
+        border: 2.5px solid $color-dark;
+        border-radius: 1.2rem;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__text-enter {
+        position: relative;
+    }
+
+    &__btn {
+        position: absolute;
+        margin-left: -49px;
+        background-color: transparent;
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__label {
+        margin-left: 1rem;
+        width: 244px;
+height: 80px;
+left: 786px;
+top: 752px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+
+color: #000000;
+    }
+}
+
+/*call to action*/
 
 .btn-cta {
     position: absolute;
@@ -27,5 +98,35 @@
     height: 19vh;
     left: 1166px;
     top: 0px;
-    background: #000000 ;
+    background: #43AFEA ;
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-pri , .link-ghost {
+    &:link,
+    &:active{
+        font-family: $font-fam-pri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 77.8%;
+        text-decoration: none;
+        /* or 31px */
+
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+}
+
+.link-pri {
+    color: black;
+}
+
+.link-ghost {
+    color: white;
 }

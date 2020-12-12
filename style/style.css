@@ -21,6 +21,29 @@ Breakpoints : Screens         : nickname
 html {
   font-size: 62.5%; }
 
+.primary-navigation {
+  position: relative;
+  width: 61%;
+  height: 54vh;
+  left: 2.5rem;
+  top: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .primary-navigation__logo {
+    margin-bottom: 6rem;
+    width: 100%;
+    height: 10vh; }
+  .primary-navigation__links {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    margin-top: 130px;
+    margin-left: -20px; }
+  .primary-navigation__items {
+    margin-left: 26px;
+    list-style: none; }
+
 .primary-nav {
   position: absolute;
   width: 9.1%;
@@ -36,12 +59,107 @@ html {
   height: 72vh;
   left: 203px;
   top: 96px;
-  background: #000000; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .content__imgHeader {
+    width: 70%;
+    height: 51vh; }
+  .content__sub-heading {
+    margin-left: 62rem; }
 
+.body-content-index {
+  background-image: url("./img/cloud.png");
+  background-position-x: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: screen; }
+
+/*Form*/
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .form__input {
+    width: 43.6rem;
+    height: 4.8rem;
+    background-color: #8299A9;
+    border: 2.5px solid #000000;
+    border-radius: 1.2rem; }
+    .form__input:focus {
+      outline: none; }
+  .form__text-enter {
+    position: relative; }
+  .form__btn {
+    position: absolute;
+    margin-left: -49px;
+    background-color: transparent;
+    border: none; }
+    .form__btn:focus {
+      outline: none; }
+  .form__label {
+    margin-left: 1rem;
+    width: 244px;
+    height: 80px;
+    left: 786px;
+    top: 752px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000; }
+
+/*call to action*/
 .btn-cta {
   position: absolute;
   width: 13%;
   height: 19vh;
   left: 1166px;
   top: 0px;
-  background: #000000; }
+  background: #43AFEA;
+  clip-path: polygon(2% 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.link-pri:link, .link-pri:active, .link-ghost:link, .link-ghost:active {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 77.8%;
+  text-decoration: none;
+  /* or 31px */
+  text-align: center;
+  letter-spacing: 0.1em; }
+
+.link-pri {
+  color: black; }
+
+.link-ghost {
+  color: white; }
+
+.quote {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 77.8%;
+  /* or 31px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #000000; }
+
+.nav-link {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #000000; }
