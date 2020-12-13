@@ -7,14 +7,14 @@
     left: 0px;
     top: 0px;
 
-    background: #F5F5F5 ;
+    background: $color-nav;
     box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3);
 }
 
 .content {
     position: absolute;
     width: 70%;
-    height: 72vh;
+    height: 77vh;
     left: 203px;
     top: 96px;
     display: flex;
@@ -62,7 +62,7 @@
 
     &__btn {
         position: absolute;
-        margin-left: -49px;
+        margin-left: -4.9rem;
         background-color: transparent;
         border: none;
 
@@ -73,20 +73,20 @@
 
     &__label {
         margin-left: 1rem;
-        width: 244px;
-height: 80px;
-left: 786px;
-top: 752px;
+        width: 24.4rem;
+        height: 8rem;
+        left: 78.6rem;
+        top: 75.2rem;
 
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 48px;
-display: flex;
-align-items: center;
+        font-family: $font-fam-sec;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $font-small;
+        line-height: 4.8rem;
+        display: flex;
+        align-items: center;
 
-color: #000000;
+        color: $color-dark ;
     }
 }
 
@@ -96,7 +96,7 @@ color: #000000;
     position: absolute;
     width: 13%;
     height: 19vh;
-    left: 1166px;
+    left: 116.6rem;
     top: 0px;
     background: #43AFEA ;
     clip-path: polygon(2% 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
@@ -113,7 +113,7 @@ color: #000000;
         font-family: $font-fam-pri;
         font-style: normal;
         font-weight: normal;
-        font-size: 2rem;
+        font-size: $font-smallest;
         line-height: 77.8%;
         text-decoration: none;
         /* or 31px */

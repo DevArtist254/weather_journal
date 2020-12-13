@@ -1,14 +1,14 @@
 .quote{
     font-family: $font-fam-pri;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 77.8%;
-/* or 31px */
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-small;
+    line-height: 77.8%;
+    /* or 31px */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
 
-color: $color-dark;
+    color: $color-dark;
 }

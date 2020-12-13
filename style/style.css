@@ -38,10 +38,10 @@ html {
     display: flex;
     flex-direction: row;
     transform: rotate(-90deg);
-    margin-top: 130px;
-    margin-left: -20px; }
+    margin-top: 13rem;
+    margin-left: -2rem; }
   .primary-navigation__items {
-    margin-left: 26px;
+    margin-left: 2.6rem;
     list-style: none; }
 
 .primary-nav {
@@ -56,7 +56,7 @@ html {
 .content {
   position: absolute;
   width: 70%;
-  height: 72vh;
+  height: 77vh;
   left: 203px;
   top: 96px;
   display: flex;
@@ -92,22 +92,22 @@ html {
     position: relative; }
   .form__btn {
     position: absolute;
-    margin-left: -49px;
+    margin-left: -4.9rem;
     background-color: transparent;
     border: none; }
     .form__btn:focus {
       outline: none; }
   .form__label {
     margin-left: 1rem;
-    width: 244px;
-    height: 80px;
-    left: 786px;
-    top: 752px;
-    font-family: Lato;
+    width: 24.4rem;
+    height: 8rem;
+    left: 78.6rem;
+    top: 75.2rem;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 4rem;
+    line-height: 4.8rem;
     display: flex;
     align-items: center;
     color: #000000; }
@@ -117,7 +117,7 @@ html {
   position: absolute;
   width: 13%;
   height: 19vh;
-  left: 1166px;
+  left: 116.6rem;
   top: 0px;
   background: #43AFEA;
   clip-path: polygon(2% 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
@@ -147,7 +147,7 @@ html {
   font-family: "Oleo Script Swash Caps", cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 4rem;
   line-height: 77.8%;
   /* or 31px */
   display: flex;
