@@ -38,15 +38,12 @@
     left: 56.7rem;
     top: 13.7rem;
 
-    background: #E3E2E2;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     &__form {
         align-self: center;
-        background-color: black;
         width: 85.2%;
         height: 23.7%;
     }
@@ -55,13 +52,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: black;
         width: 100%;
         height: 65%;
     }
 
     &__card-sec {
-        background-color: blanchedalmond;
+        background-color: rgba(0, 0, 0, 0.7);
         width: 37.5%;
         height: 100%;
     }

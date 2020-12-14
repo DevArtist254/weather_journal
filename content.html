@@ -14,7 +14,7 @@
             <h3 class="logo__heading sub-heading">Weather <br> journal</h3>
         </header>
         <section class="todays-content__card-primary cardXl">
-            <h3 class="cardXl__title sub-heading">Today</h3>
+            <h3 class="cardXl__title sub-heading" style="color: #ffffff;">Today</h3>
             <div class="cardXl__info info">
                 <ul class="info__list">
                     <li class="info__item">
@@ -27,21 +27,21 @@
                         <p class="paragraph">
                             <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
                             <span class="temp-desc">
-                                <p class="temp-desc__txt">min :<span class="temp-desc__value">268</span></p>
+                                <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
                                 <br>
-                                <p class="temp-desc__txt">max :<span class="temp-desc__value">278</span></p>
+                                <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
                             </span>
                         </p>
                     </li>
                     <li class="info__item">
                         <p class="paragraph">
-                            <span class="wind-desc">wind <br> speed</span>
+                            <span class="wind-desc">wind <br> speed</span> :
                             <span class="wind-value">1.5</span>
                         </p>
                     </li>
                     <li class="info__item">
                         <p class="paragraph">
-                            <span class="humidty-desc">humidty</span>
+                            <span class="humidty-desc">humidty</span> :
                             <span class="humidty-value">100</span>
                         </p>
                     </li>
@@ -51,10 +51,62 @@
     </section>
 
     <section class="more-content">
-        <div class="more-content__form"></div>
+        <div class="more-content__form form">
+            <div class="form__text-enter">
+                <input type="text" class="form__input">
+                <button type="submit" class="form__btn" ><span class="iconify" data-inline="false" data-icon="bx:bx-search-alt" style="font-size: 48px;"></span></button>    
+            </div>
+            <label for="text" class="form__label" style="font-size: 2rem; line-height: 2rem;">Enter any city</label>
+        </form>
+        </div>
         <div class="more-content__cards">
-            <div class="more-content__card-sec"></div>
-            <div class="more-content__card-sec"></div>
+            <div class="more-content__card-sec card-sec">
+                <h3 class="card-sec__title sub-heading" style="color: #ffffff;">Tomorrow</h3>
+                <div class="card-sec__info info">
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <p class="paragraph">
+                                <span class="desc"><span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 64px;"></span></span>
+                                <span class="desc-text">Clear Sky</span>
+                            </p>
+                        </li>
+                        <li class="info__item">
+                            <p class="paragraph">
+                                <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
+                                <span class="temp-desc">
+                                    <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
+                                    <br>
+                                    <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
+                                </span>
+                            </p>
+                        </li>
+                        </ul>
+                        </div>
+
+            </div>
+            <div class="more-content__card-sec">
+                <h3 class="card-sec__title sub-heading" style="color: #ffffff;">Friday</h3>
+                <div class="card-sec__info info">
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <p class="paragraph">
+                                <span class="desc"><span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 64px;"></span></span>
+                                <span class="desc-text">Clear Sky</span>
+                            </p>
+                        </li>
+                        <li class="info__item">
+                            <p class="paragraph">
+                                <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
+                                <span class="temp-desc">
+                                    <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
+                                    <br>
+                                    <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
+                                </span>
+                            </p>
+                        </li>
+                        </ul>
+                    </div>
+            </div>
         </div>
     </section>
 

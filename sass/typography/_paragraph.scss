@@ -1,0 +1,12 @@
+.paragraph {
+    font-family: $font-fam-sec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-smaller ;
+    line-height: 77.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
