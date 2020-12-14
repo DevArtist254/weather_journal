@@ -12,3 +12,19 @@
 
     color: $color-dark;
 }
+
+.sub-heading {
+    font-family: $font-fam-pri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-small;
+    line-height: 77.8%;
+    /* or 47px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: $color-dark;
+}

@@ -9,4 +9,18 @@ letter-spacing: 1px;
 color: $color-dark;
 }
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__img {
+        width: 25%;
+    }
+
+    &__heading {
+        width: 75%;
+    }
+}
+
 
