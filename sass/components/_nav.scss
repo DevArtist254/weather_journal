@@ -8,11 +8,23 @@
     flex-direction: column;
     align-items: center;
 
+    @include respond(big-screen) {
+        width: 53%;
+        height: 43vh;
+      }
+
     &__logo{
         margin-bottom: 6rem;
         width: 100%;
         height: 10vh;
+        @include respond(big-screen) {
+            width: 12.8rem;
+          }
     }
+
+    &__img {
+        width: 100%;
+    } 
 
     &__links {
         display: flex;
@@ -20,6 +32,16 @@
         transform: rotate(-90deg);
         margin-top: 13rem;
         margin-left: -2rem;
+
+        @include respond(big-screen) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            transform: rotate(0deg);
+            margin-top: 0rem;
+            margin-left: 0rem;
+          }
     }
 
     &__items {

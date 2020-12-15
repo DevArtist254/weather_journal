@@ -52,16 +52,34 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media (min-width: 112.5em) {
+    .primary-navigation {
+      width: 53%;
+      height: 43vh; } }
   .primary-navigation__logo {
     margin-bottom: 6rem;
     width: 100%;
     height: 10vh; }
+    @media (min-width: 112.5em) {
+      .primary-navigation__logo {
+        width: 12.8rem; } }
+  .primary-navigation__img {
+    width: 100%; }
   .primary-navigation__links {
     display: flex;
     flex-direction: row;
     transform: rotate(-90deg);
     margin-top: 13rem;
     margin-left: -2rem; }
+    @media (min-width: 112.5em) {
+      .primary-navigation__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        transform: rotate(0deg);
+        margin-top: 0rem;
+        margin-left: 0rem; } }
   .primary-navigation__items {
     margin-left: 2.6rem;
     list-style: none; }
@@ -74,6 +92,9 @@ html {
   top: 0px;
   background: #F5F5F5;
   box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3); }
+  @media (min-width: 112.5em) {
+    .primary-nav {
+      width: 13.2%; } }
 
 .content {
   position: absolute;
@@ -84,11 +105,30 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  @media (min-width: 112.5em) {
+    .content {
+      width: 60.7%;
+      height: 83.3%;
+      left: 62rem;
+      top: 0px; } }
   .content__imgHeader {
     width: 70%;
     height: 51vh; }
+    @media (min-width: 112.5em) {
+      .content__imgHeader {
+        width: 77%;
+        height: 68%; } }
   .content__sub-heading {
     margin-left: 62rem; }
+    @media (min-width: 112.5em) {
+      .content__sub-heading {
+        margin-left: 125rem; } }
+  .content__form {
+    width: 82%; }
+    @media (min-width: 112.5em) {
+      .content__form {
+        width: 68%;
+        height: 9%; } }
 
 .body-content-index {
   background-image: url("./img/cloud.png");
@@ -102,21 +142,37 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center; }
+  @media (min-width: 112.5em) {
+    .form {
+      justify-content: space-between; } }
   .form__input {
-    width: 43.6rem;
-    height: 4.8rem;
+    font-size: 4rem;
+    width: 100%;
+    height: 100%;
     background-color: #8299A9;
     border: 2.5px solid #000000;
     border-radius: 1.2rem; }
     .form__input:focus {
       outline: none; }
   .form__text-enter {
-    position: relative; }
+    position: relative;
+    height: 100%;
+    width: 66%; }
+    @media (min-width: 112.5em) {
+      .form__text-enter {
+        width: 58.3%;
+        height: 100%; } }
   .form__btn {
     position: absolute;
-    margin-left: -4.9rem;
+    margin-left: -6.4rem;
+    height: 100%;
     background-color: transparent;
     border: none; }
+    @media (min-width: 112.5em) {
+      .form__btn {
+        width: 14.5%;
+        height: 100%;
+        margin-left: -7.2rem; } }
     .form__btn:focus {
       outline: none; }
   .form__label {
@@ -133,13 +189,18 @@ html {
     display: flex;
     align-items: center;
     color: #000000; }
+    @media (min-width: 112.5em) {
+      .form__label {
+        width: 40%;
+        height: 100%;
+        font-size: 6rem; } }
 
 /*call to action*/
 .btn-cta {
   position: absolute;
-  width: 13%;
+  width: 10%;
   height: 19vh;
-  left: 116.6rem;
+  left: 118.6rem;
   top: 0px;
   background: #43AFEA;
   clip-path: polygon(2% 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
@@ -147,6 +208,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (min-width: 112.5em) {
+    .btn-cta {
+      width: 9%;
+      height: 23%;
+      left: 217.4rem;
+      top: 0px; } }
 
 .link-pri:link, .link-pri:active, .link-ghost:link, .link-ghost:active {
   font-family: "Oleo Script Swash Caps", cursive;
@@ -158,6 +225,9 @@ html {
   /* or 31px */
   text-align: center;
   letter-spacing: 0.1em; }
+  @media (min-width: 112.5em) {
+    .link-pri:link, .link-pri:active, .link-ghost:link, .link-ghost:active {
+      font-size: 6rem; } }
 
 .link-pri {
   color: black; }
@@ -238,6 +308,9 @@ html {
   text-align: center;
   letter-spacing: 0.1em;
   color: #000000; }
+  @media (min-width: 112.5em) {
+    .sub-heading {
+      font-size: 6rem; } }
 
 .nav-link {
   font-family: "Lato", sans-serif;
