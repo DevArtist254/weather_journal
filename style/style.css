@@ -52,6 +52,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media (max-width: 75em) {
+    .primary-navigation {
+      width: 36.6%;
+      height: 79%; } }
   @media (min-width: 112.5em) {
     .primary-navigation {
       width: 53%;
@@ -92,6 +96,10 @@ html {
   top: 0px;
   background: #F5F5F5;
   box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3); }
+  @media (max-width: 75em) {
+    .primary-nav {
+      width: 12.7%;
+      height: 100%; } }
   @media (min-width: 112.5em) {
     .primary-nav {
       width: 13.2%; } }
@@ -105,6 +113,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  @media (max-width: 75em) {
+    .content {
+      width: 69.3%;
+      height: 79%;
+      left: 18.9rem;
+      top: 5.6rem; } }
   @media (min-width: 112.5em) {
     .content {
       width: 60.7%;
@@ -114,17 +128,28 @@ html {
   .content__imgHeader {
     width: 70%;
     height: 51vh; }
+    @media (max-width: 75em) {
+      .content__imgHeader {
+        width: 75%;
+        height: 65%; } }
     @media (min-width: 112.5em) {
       .content__imgHeader {
         width: 77%;
         height: 68%; } }
   .content__sub-heading {
     margin-left: 62rem; }
+    @media (max-width: 75em) {
+      .content__sub-heading {
+        margin-left: 52rem; } }
     @media (min-width: 112.5em) {
       .content__sub-heading {
         margin-left: 125rem; } }
   .content__form {
     width: 82%; }
+    @media (max-width: 75em) {
+      .content__form {
+        width: 68%;
+        height: 10.5%; } }
     @media (min-width: 112.5em) {
       .content__form {
         width: 68%;
@@ -189,6 +214,11 @@ html {
     display: flex;
     align-items: center;
     color: #000000; }
+    @media (max-width: 75em) {
+      .form__label {
+        width: 38%;
+        height: 100%;
+        font-size: 2.5rem; } }
     @media (min-width: 112.5em) {
       .form__label {
         width: 40%;
@@ -208,6 +238,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 75em) {
+    .btn-cta {
+      width: 10.6%;
+      height: 20.3%;
+      left: 89.9rem;
+      top: 0px; } }
   @media (min-width: 112.5em) {
     .btn-cta {
       width: 9%;
@@ -295,6 +331,9 @@ html {
   align-items: center;
   letter-spacing: 0.1em;
   color: #000000; }
+  @media (max-width: 75em) {
+    .quote {
+      font-size: 2.5rem; } }
 
 .sub-heading {
   font-family: "Oleo Script Swash Caps", cursive;

@@ -11,6 +11,10 @@
     letter-spacing: 0.1em;
 
     color: $color-dark;
+
+    @include respond(tab-land) {
+        font-size: $font-smaller;
+      }
 }
 
 .sub-heading {
@@ -27,6 +31,8 @@ text-align: center;
 letter-spacing: 0.1em;
 
 color: $color-dark;
+
+
 
 @include respond(big-screen) {
     font-size: $font-meduim;
