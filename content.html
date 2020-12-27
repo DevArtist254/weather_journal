@@ -8,113 +8,76 @@
     <title>Searched Content</title>
 </head>
 <body>
-    <section class="todays-content">
-        <header class="todays-content__logo logo">
-            <img src="./images/logo.png" alt="logo for weather journal" class="logo__img" >
-            <h3 class="logo__heading sub-heading">Weather <br> journal</h3>
-        </header>
-        <section class="todays-content__card-primary cardXl">
-            <h3 class="cardXl__title sub-heading" style="color: #ffffff;">Today</h3>
-            <div class="cardXl__info info">
-                <ul class="info__list">
-                    <li class="info__item">
-                        <p class="paragraph">
-                            <span class="desc"><span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 64px;"></span></span>
-                            <span class="desc-text">Clear Sky</span>
-                        </p>
+    <nav class="primary-nav">
+        <div class="primary-navigation">
+            <div class="primary-navigation__logo">
+                <img src="./images/logo.png" alt="logo for weather journal" class="primary-navigation__img" >
+            </div>
+                <ul class="primary-navigation__links">
+                    <li class="primary-navigation__items">
+                        <a href="#" class="nav-link link-1">Home</a>
                     </li>
-                    <li class="info__item">
-                        <p class="paragraph">
-                            <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
-                            <span class="temp-desc">
-                                <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
-                                <br>
-                                <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
-                            </span>
-                        </p>
+                    <li class="primary-navigation__items">
+                        <a href="./content.html" class="nav-link link-2">Contacts</a>
                     </li>
-                    <li class="info__item">
-                        <p class="paragraph">
-                            <span class="wind-desc">wind <br> speed</span> :
-                            <span class="wind-value">1.5</span>
-                        </p>
+                    <li class="primary-navigation__items">
+                        <a href="#" class="nav-link link-3">About</a>
                     </li>
-                    <li class="info__item">
-                        <p class="paragraph">
-                            <span class="humidty-desc">humidty</span> :
-                            <span class="humidty-value">100</span>
-                        </p>
+                </ul>
+        </div>
+    </nav>
+
+    <section class="dd">
+        <div class="dd__search">
+            <form action="post" class="content__form form" style="margin: 0 auto;">
+                <div class="form__text-enter">
+                    <input type="text" class="form__input">
+                    <button type="submit" class="form__btn" style="margin-left: -4.4rem;"><span class="iconify" data-inline="false" data-icon="bx:bx-search-alt" style="font-size: 4rem;"></span></button>    
+                </div>
+                <label for="text" class="form__label" style="width: 26.4rem;height: 5rem;">Enter any city</label>
+            </form>
+        </div>
+        <div class="dd__content card">
+            <div class="card__city">
+                <h1 class="card__city--heading heading">
+                    Nairobi
+                </h1>
+            </div>
+            <div class="card__weather-report">
+                <h2 class="card__weather-report--heading sub-heading" >
+                    Today
+                </h2>
+                <ul class="card__weather-report--list">
+                    <li class="card__weather-report--items">
+                        <div class="card__weather-report--items-icon">
+                            <span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 10.8rem;"></span>
+                        </div>
+                        <div class="card__weather-report--items-desc">
+                            Clear Sky
+                        </div>
+                    </li>
+                    <li class="card__weather-report--items">
+                        <div class="card__weather-report--items-icon">
+                            <span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 6.4rem;"></span>                        </div>
+                        <div class="card__weather-report--items-desc">
+                            <ul class="desc">
+                                <li class="desc__item" style="margin-right: 2rem">
+                                    <span class="desc__heading">Max :</span>
+                                    <span class="desc__detail">263</span>
+                                </li>
+                                <li class="desc__item">
+                                    <span class="desc__heading">Min :</span>
+                                    <span class="desc__detail">263</span>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
-        </section>
-    </section>
-
-    <section class="more-content">
-        <div class="more-content__form form">
-            <div class="form__text-enter">
-                <input type="text" class="form__input">
-                <button type="submit" class="form__btn" ><span class="iconify" data-inline="false" data-icon="bx:bx-search-alt" style="font-size: 48px;"></span></button>    
-            </div>
-            <label for="text" class="form__label" style="font-size: 2rem; line-height: 2rem;">Enter any city</label>
-        </form>
-        </div>
-        <div class="more-content__cards">
-            <div class="more-content__card-sec card-sec">
-                <h3 class="card-sec__title sub-heading" style="color: #ffffff;">Tomorrow</h3>
-                <div class="card-sec__info info">
-                    <ul class="info__list">
-                        <li class="info__item">
-                            <p class="paragraph">
-                                <span class="desc"><span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 64px;"></span></span>
-                                <span class="desc-text">Clear Sky</span>
-                            </p>
-                        </li>
-                        <li class="info__item">
-                            <p class="paragraph">
-                                <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
-                                <span class="temp-desc">
-                                    <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
-                                    <br>
-                                    <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
-                                </span>
-                            </p>
-                        </li>
-                        </ul>
-                        </div>
-
-            </div>
-            <div class="more-content__card-sec">
-                <h3 class="card-sec__title sub-heading" style="color: #ffffff;">Friday</h3>
-                <div class="card-sec__info info">
-                    <ul class="info__list">
-                        <li class="info__item">
-                            <p class="paragraph">
-                                <span class="desc"><span class="iconify" data-inline="false" data-icon="ion:rainy" style="color: #ffffff; font-size: 64px;"></span></span>
-                                <span class="desc-text">Clear Sky</span>
-                            </p>
-                        </li>
-                        <li class="info__item">
-                            <p class="paragraph">
-                                <span class="temp-icon"><span class="iconify" data-inline="false" data-icon="emojione-monotone:thermometer" style="color: #ffffff; font-size: 64px;"></span></span>
-                                <span class="temp-desc">
-                                    <span class="temp-desc__txt paragraph">min :<span class="temp-desc__value">268</span></span>
-                                    <br>
-                                    <span class="temp-desc__txt paragraph">max :<span class="temp-desc__value">278</span></span>
-                                </span>
-                            </p>
-                        </li>
-                        </ul>
-                    </div>
-            </div>
         </div>
     </section>
-
-    <div class="btn-cta">
-        <span><a href="#" class="link-pri">sign up</a></span>
-        <br>&<br>
-        <span><a href="#" class="link-ghost">login</a></span>
-    </div>
+    
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>
+
