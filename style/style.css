@@ -79,10 +79,27 @@ html {
     list-style: none;
     margin-bottom: 1.5rem; }
 
+.primary-nav {
+  position: absolute;
+  width: 9.1%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #F5F5F5;
+  box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3);
+  transition: all .5s ease-in-out; }
+  @media (max-width: 75em) {
+    .primary-nav {
+      width: 12.7%;
+      height: 100%; } }
+  @media (min-width: 112.5em) {
+    .primary-nav {
+      width: 13.2%; } }
+
 .primary-navigation {
   position: relative;
   width: 61%;
-  height: 54vh;
+  height: 65vh;
   left: 2.5rem;
   top: 3.4rem;
   display: flex;
@@ -98,13 +115,17 @@ html {
       height: 43vh; } }
   .primary-navigation__logo {
     margin-bottom: 6rem;
-    width: 100%;
-    height: 10vh; }
+    width: 88%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row; }
     @media (min-width: 112.5em) {
       .primary-navigation__logo {
         width: 12.8rem; } }
   .primary-navigation__img {
     width: 100%; }
+  .primary-navigation__heading {
+    visibility: hidden; }
   .primary-navigation__links {
     display: flex;
     flex-direction: row;
@@ -123,6 +144,23 @@ html {
   .primary-navigation__items {
     margin-left: 2.6rem;
     list-style: none; }
+
+.primary-nav:hover {
+  width: 11%; }
+
+.primary-nav:hover .primary-navigation {
+  left: 2rem; }
+  .primary-nav:hover .primary-navigation__logo {
+    width: 60%;
+    margin-right: 2.1rem; }
+  .primary-nav:hover .primary-navigation__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    transform: rotate(0deg);
+    margin-top: 0rem;
+    margin-left: 0rem; }
 
 /*Form*/
 .form {
@@ -185,22 +223,6 @@ html {
         width: 40%;
         height: 100%;
         font-size: 6rem; } }
-
-.primary-nav {
-  position: absolute;
-  width: 9.1%;
-  height: 100vh;
-  left: 0px;
-  top: 0px;
-  background: #F5F5F5;
-  box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3); }
-  @media (max-width: 75em) {
-    .primary-nav {
-      width: 12.7%;
-      height: 100%; } }
-  @media (min-width: 112.5em) {
-    .primary-nav {
-      width: 13.2%; } }
 
 .content {
   position: absolute;
@@ -308,7 +330,7 @@ html {
 
 .dd {
   position: absolute;
-  height: 62.11%;
+  height: 72.11%;
   width: 62.78%;
   top: 50%;
   left: 50%;

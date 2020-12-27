@@ -1,24 +1,5 @@
 //layout
 //F5F5F5
-.primary-nav{
-    position: absolute;
-    width: 9.1%;
-    height: 100vh;
-    left: 0px;
-    top: 0px;
-
-    background: $color-nav;
-    box-shadow: 5px 0px 11px rgba(0, 0, 0, 0.3);
-
-    @include respond(tab-land) {
-        width: 12.7%;
-        height: 100%;
-      }
-
-    @include respond(big-screen) {
-        width: 13.2%;
-      }
-}
 
 .content {
     position: absolute;
